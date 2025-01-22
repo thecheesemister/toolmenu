@@ -11,19 +11,21 @@ body {
 .stopwatch {
   text-align: center;
   background: white;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
 }
 
 .time-display {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: bold;
   margin: 20px 0;
+  color: #333;
 }
 
 button {
-  margin: 5px;
+  margin: 10px 5px;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -31,6 +33,7 @@ button {
   border-radius: 5px;
   background-color: #007bff;
   color: white;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
